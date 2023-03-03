@@ -3,14 +3,18 @@
 
 
 ---
-The point of this exercise is to demonstrate understanding of commiting in Git and successfully execute the following relevant commands:
+The point of this exercise is to demonstrate understanding of revisiting and reverting commits in Git and successfully execute the following relevant commands:
     
-* git status
-* git init
-* git commit -m
-* git log
-* touch
-* git add
+* git checkout commit *commit-hash*
+* git switch -
+* git checkout HEAD *"filename"*
+* git checkout -- *"filename"*
+* git reset *commit-hash*
+
+Along with:
+* git checkout HEAD~#
+* git restore *"filename"*
+* git revert *commit-hash*
 ---
 
 This exercise is based around the Beatles' song Yesterday, and the evolution of its lyrics over time. 
